@@ -20,9 +20,9 @@
         crossorigin="anonymous"></script>
 
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="title row justify-content-center gy-5">
             <div class="col-sm-8">
-                <h1 class="display-1">Ilya Shestakov</h1>
+                <h1 class="display-3">Ilya Shestakov</h1>
                 <small class="text-muted">Full stack developer with over than 15 years of experience</small>
             </div>
         </div>
@@ -31,7 +31,7 @@
 
             <div class="col-sm-4 order-sm-last">
                 <h2>Skills</h2>
-                <ul>
+                <ul class="list-unstyled">
                     <li>Agile/Scrum</li>
                     <li>Javascript, TypeScript</li>
                     <li>HTML, CSS, jQuery, Angular, React</li>
@@ -42,12 +42,11 @@
                     <li>Windows, Ubuntu, CentOS</li>
                 </ul>
 
-                <div class="col-sm-4 order-sm-last">
-                    <h2>Languages</h2>
-                    <div>
-                        English, Russian (native)
-                    </div>
-                </div>
+                <h2>Languages</h2>
+                <ul class="list-inline">
+                    <li class="list-inline-item">English</li>
+                    <li class="list-inline-item">Russian (native)</li>
+                </ul>
             </div>
 
             <div class="col-sm-8">
@@ -141,36 +140,39 @@
                 </div>
 
                 <h2>Education</h2>
-                <div>
-                    <h3>
-                        <span class="company">Arkhangelsk State Engineer University</span> —
-                        <span class="role">Applied math</span>
-                    </h3>
-                    <small>1998 - 2003</small>
-                </div>
-                <div>
-                    <h3>
-                        <span class="company">Machine Learning, Stanford University</span> -
-                        <span class="role">Coursera</span>
-                    </h3>
-                    <a href="https://class.coursera.org/ml-003">https://class.coursera.org/ml-003</a>
-                </div>
-                <div>
-                    <h3>
-                        <span class="company">Probabilistic Graphical Models, Stanford University</span> -
-                        <span class="role">Coursera</span>
-                    </h3>
-                    <a href="https://class.coursera.org/pgm-2012-002">https://class.coursera.org/pgm-2012-002</a> (with distinction)
-                </div>
-                <div>
-                    <h3>
-                        <span class="company">Algorithms Part I and II, Princeton University</span> -
-                        <span class="role">Coursera</span>
-                    </h3>
-                    <a href="https://www.coursera.org/learn/algorithms-part1">https://www.coursera.org/learn/algorithms-part1</a>,
-                    <a href="https://www.coursera.org/learn/algorithms-part2">https://www.coursera.org/learn/algorithms-part2</a>
-                </div>
-            </div>
+                <dl class="education">
+                    <dt>
+                        <span>Arkhangelsk State Engineer University</span> —
+                        <span>Applied math</span>
+                    </dt>
+                    <dd>1998 - 2003</dd>
+
+                    <dt>
+                        <span>Machine Learning, Stanford University</span> -
+                        <span>Coursera</span>
+                    </dt>
+                    <dd>
+                        <a href="https://class.coursera.org/ml-003">https://class.coursera.org/ml-003</a>
+                    </dd>
+
+                    <dt>
+                        <span>Probabilistic Graphical Models, Stanford University</span> -
+                        <span>Coursera</span>
+                    </dt>
+                    <dd>
+                        <a href="https://class.coursera.org/pgm-2012-002">https://class.coursera.org/pgm-2012-002</a> (with distinction)
+                    </dd>
+
+                    <dt>
+                        <span>Algorithms Part I and II, Princeton University</span> -
+                        <span>Coursera</span>
+                    </dt>
+                    <dd>
+                        <a href="https://www.coursera.org/learn/algorithms-part1">https://www.coursera.org/learn/algorithms-part1</a>,
+                        <a href="https://www.coursera.org/learn/algorithms-part2">https://www.coursera.org/learn/algorithms-part2</a>
+                    </dd>
+                </dl>
+        </div>
         </div>
     </div>
 </body>

@@ -1,16 +1,17 @@
 h1 {
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 h2 {
     text-transform: uppercase;
+    color: dodgerblue;
 }
 
-h3 span.company {
+.company {
     font-weight: bold;
 }
 
-h3 span.role {
+.role {
     font-style: oblique;
 }
 
@@ -22,3 +23,10 @@ h3 span.role {
     font-weight: bolder;
 }
 
+.title {
+    padding: 1.5rem 0rem;
+}
+
+dd {
+    padding-left: 2rem;
+}
