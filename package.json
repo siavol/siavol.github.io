@@ -16,10 +16,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix ."
   },
@@ -42,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
@@ -54,6 +54,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.4",
     "prettier-eslint": "^15.0.1",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "yaml-loader": "^0.8.0"
   }
 }

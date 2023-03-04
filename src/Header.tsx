@@ -1,8 +1,7 @@
-import data from './resume-data.json';
+import data from './resume-data.yaml';
 import React from 'react';
 
 function Header() {
-  console.log('resume', data);
   return (
     <div className="title row justify-content-center gy-5">
       <div className="col-sm-8">
