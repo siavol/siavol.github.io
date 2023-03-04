@@ -1,10 +1,12 @@
+import data from './resume-data.json';
 import React from 'react';
 
 function Header() {
+  console.log('resume', data);
   return (
     <div className="title row justify-content-center gy-5">
       <div className="col-sm-8">
-        <h1 className="display-3">Ilya Shestakov</h1>
+        <h1 className="display-3">{data.name}</h1>
         <small className="text-muted">
           Full stack developer with over than 15 years of experience
         </small>
