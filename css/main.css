@@ -1,32 +1,32 @@
 h1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 h2 {
-    text-transform: uppercase;
-    color: dodgerblue;
+  text-transform: uppercase;
+  color: dodgerblue;
 }
 
 .company {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .role {
-    font-style: oblique;
+  font-style: oblique;
 }
 
 .project .sub-title {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .responsibilities .sub-title {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .title {
-    padding: 1.5rem 0rem;
+  padding: 1.5rem 0rem;
 }
 
 dd {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
