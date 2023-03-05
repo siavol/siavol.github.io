@@ -106,3 +106,58 @@ experience:
           Sanoma is using Azure for the media publishing workflows. I
           implemented a new workflow using Azure Logic Apps and Azure
           Functions.
+
+  - company: Accusoft
+    location: US (remote)
+    role: Software engineer
+    time-period:
+      from: August 2014
+      to: May 2022
+    projects:
+      - name: PrizmDoc Viewer
+        href: https://www.accusoft.com/products/prizmdoc-suite/prizmdoc-viewer/
+        description: >
+          PrizmDoc Viewer allows to add powerful document viewing and
+          document conversion functionality to web applications. I
+          participated in the development of both client and server parts
+          of the product. I was invited to the project’s API Chapter to
+          propose and review API. Now I am working as scrum-master and
+          developer.
+        responsibilities:
+          - Scrum-master of the team
+          - 'Backend development: micro-services, javascript, node.js, Java, C#, .NET, REST'
+          - 'Testing: mocha, jBehave, behave, python, multi-mechanize'
+          - 'CI: TeamCity, Jenkins, OpenStack'
+
+  - company: Kofax
+    location: Saint Petersburg, Russia (remote)
+    role: Software developer
+    time-period:
+      from: August 2005
+      to: August 2014
+    projects:
+      - name: Kofax Insight
+        description: >
+          Started from the very first line of code in the project, I
+          participated in the creation of successful Business Intelligence
+          product. Was involved in the application architecture design, UI
+          design, development process. Finally became the leader in one of
+          the teams.
+        responsibilities:
+          - 'Business process visual editors development: WinForms, WPF, C#, .NET, HTML, TypeScript, jQuery'
+          - 'Web service development: C#, .NET, Soap, SQL'
+          - 'Data analysis implementation: regression analysis, cluster analysis'
+          - 'Cloud hosted support implementation: Azure Cloud Services'
+
+  - company: Arkhangelsk city administration
+    location: Arkhangelsk, Russia
+    role: Software developer
+    time-period:
+      from: October 2002
+      to: August 2005
+    projects:
+      - name: Municipal Estate Management System
+        responsibilities:
+          - 'Object-Relational Mapping library development: C#, .NET, MS-SQL'
+          - Provided integration with geoinformation system
+          - 'Reports subsystem development: MS SQL Reporting Services Data Processing Extension'
