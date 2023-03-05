@@ -1,5 +1,6 @@
 import './ProjectItem.css';
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 import { Project } from '../resume/resume-data.yaml';
 
 type ProjectItemProps = { project: Project };
@@ -11,7 +12,9 @@ function ProjectItem({ project }: ProjectItemProps) {
         <span className="sub-title">Project:</span>
         <span>{project.name}</span>
       </div>
-      <div className="description">{project.description}</div>
+      <div className="description">
+        <ReactMarkdown>{project.description}</ReactMarkdown>
+      </div>
     </>
   );
 }

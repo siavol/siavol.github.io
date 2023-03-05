@@ -89,7 +89,7 @@ experience:
       - name: Wihuri MIA
         description: >
           MIA is an internal
-          <a href="https://www.wihuri.fi/en/">Wihuri</a>
+          [Wihuri](https://www.wihuri.fi/en/)
           application with Node.js backend, React frontend and MongoDB,
           Redis as a storage. The application has been migrated from the
           on-premise to Azure cloud. Also I introduced automated tests for
