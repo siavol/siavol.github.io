@@ -94,3 +94,9 @@ experience:
           Redis as a storage. The application has been migrated from the
           on-premise to Azure cloud. Also I introduced automated tests for
           the application and configured CI/CD pipeline.
+        responsibilities:
+          - Design and estimate the work and communicate with the customer.
+          - Containerize and adopt application so that it can run in the cloud environment.
+          - Setup CI/CD with Azure Pipeline.
+          - Create Bicep templates for application automated deployment.
+          - Automated tests with Jest framework.

@@ -28,6 +28,7 @@ declare module '*.yaml' {
   export type Project = {
     name: string;
     description: string;
+    responsibilities?: string[];
   };
 
   const content: ResumeData;

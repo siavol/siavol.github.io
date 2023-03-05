@@ -2,6 +2,7 @@ import './ProjectItem.css';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Project } from '../resume/resume-data.yaml';
+import Responsibilities from './Responsibilities';
 
 type ProjectItemProps = { project: Project };
 
@@ -15,6 +16,7 @@ function ProjectItem({ project }: ProjectItemProps) {
       <div className="description">
         <ReactMarkdown>{project.description}</ReactMarkdown>
       </div>
+      <Responsibilities items={project.responsibilities} />
     </>
   );
 }
