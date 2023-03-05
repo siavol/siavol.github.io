@@ -27,6 +27,7 @@ declare module '*.yaml' {
 
   export type Project = {
     name: string;
+    href?: string;
     description: string;
     responsibilities?: string[];
   };

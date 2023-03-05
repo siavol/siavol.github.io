@@ -100,3 +100,9 @@ experience:
           - Setup CI/CD with Azure Pipeline.
           - Create Bicep templates for application automated deployment.
           - Automated tests with Jest framework.
+      - name: Sanoma
+        href: https://www.sanoma.fi/
+        description: >
+          Sanoma is using Azure for the media publishing workflows. I
+          implemented a new workflow using Azure Logic Apps and Azure
+          Functions.
