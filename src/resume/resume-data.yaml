@@ -73,3 +73,7 @@ skills:
     kind: cloud
   - name: AWS
     kind: cloud
+
+languages:
+  - English
+  - Russian (native)

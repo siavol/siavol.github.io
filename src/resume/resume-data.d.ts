@@ -5,6 +5,7 @@ declare module '*.yaml' {
       short: string;
     };
     skills: ResumeSkill[];
+    languages: string[];
   };
 
   export type ResumeSkill = {
