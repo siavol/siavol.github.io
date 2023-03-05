@@ -1,4 +1,4 @@
-import data from './resume/resume-data.yaml';
+import data from '../resume/resume-data.yaml';
 import React from 'react';
 
 function Header() {
