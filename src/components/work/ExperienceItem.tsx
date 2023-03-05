@@ -4,6 +4,7 @@ import { Job } from '../resume/resume-data.yaml';
 import { JobContext } from './JobContext';
 import Position from './Position';
 import JobTimePeriod from './JobTimePeriod';
+import ProjectItem from './ProjectItem';
 
 type JobElementProps = { job: Job };
 
@@ -15,6 +16,9 @@ function ExperienceItem({ job }: JobElementProps) {
           <Position />
         </h3>
         <JobTimePeriod></JobTimePeriod>
+        {job.projects.map((project) => (
+          <ProjectItem key={project.name} project={project} />
+        ))}
       </JobContext.Provider>
     </div>
   );

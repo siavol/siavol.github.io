@@ -85,3 +85,12 @@ experience:
     time-period:
       from: June 2022
       to: Present
+    projects:
+      - name: Wihuri MIA
+        description: >
+          MIA is an internal
+          <a href="https://www.wihuri.fi/en/">Wihuri</a>
+          application with Node.js backend, React frontend and MongoDB,
+          Redis as a storage. The application has been migrated from the
+          on-premise to Azure cloud. Also I introduced automated tests for
+          the application and configured CI/CD pipeline.

@@ -9,4 +9,5 @@ export const JobContext = createContext<Job>({
     from: '1900',
     to: '2000',
   },
+  projects: [],
 });

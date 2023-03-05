@@ -22,6 +22,12 @@ declare module '*.yaml' {
       from: string;
       to: string;
     };
+    projects: Project[];
+  };
+
+  export type Project = {
+    name: string;
+    description: string;
   };
 
   const content: ResumeData;
