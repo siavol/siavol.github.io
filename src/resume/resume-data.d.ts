@@ -6,11 +6,22 @@ declare module '*.yaml' {
     };
     skills: ResumeSkill[];
     languages: string[];
+    experience: Job[];
   };
 
   export type ResumeSkill = {
     name: string;
     kind: string;
+  };
+
+  export type Job = {
+    company: string;
+    location: string;
+    role: string;
+    'time-period': {
+      from: string;
+      to: string;
+    };
   };
 
   const content: ResumeData;

@@ -77,3 +77,11 @@ skills:
 languages:
   - English
   - Russian (native)
+
+experience:
+  - company: Vincit
+    location: Helsinki, Finland
+    role: Senior Consultant
+    time-period:
+      from: June 2022
+      to: Present
