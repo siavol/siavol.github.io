@@ -1,3 +1,75 @@
 name: Ilya Shestakov
 description:
   short: Full stack developer with over than 15 years of experience
+
+skills:
+  - name: Agile/Scrum
+    kind: methodology
+
+  - name: Javascript
+    kind: js-lang
+  - name: TypeScript
+    kind: js-lang
+
+  - name: Node.js
+    kind: js-backend
+
+  - name: HTML
+    kind: frontend
+  - name: CSS
+    kind: frontend
+  - name: jQuery
+    kind: frontend
+  - name: Angular
+    kind: frontend
+  - name: React
+    kind: frontend
+
+  - name: C#
+    kind: dotnet
+  - name: .NET
+    kind: dotnet
+  - name: WinForms
+    kind: dotnet
+  - name: WPF
+    kind: dotnet
+  - name: WCF
+    kind: dotnet
+  - name: Java
+    kind: dotnet
+
+  - name: Docker
+    kind: orchestration
+  - name: Kubernetes
+    kind: orchestration
+  
+  - name: MS SQL Server
+    kind: dbs
+  - name: Oracle
+    kind: dbs
+  - name: MySQL
+    kind: dbs
+  
+  - name: Git
+    kind: vcs
+  - name: SVN
+    kind: vcs
+
+  - name: TeamCity
+    kind: ci-cd
+  - name: Jenkins
+    kind: ci-cd
+  - name: OpenStack
+    kind: ci-cd
+  
+  - name: Windows
+    kind: os
+  - name: Ubuntu
+    kind: os
+  - name: CentOS
+    kind: os
+  
+  - name: Azure
+    kind: cloud
+  - name: AWS
+    kind: cloud

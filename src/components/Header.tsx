@@ -1,3 +1,4 @@
+import './Header.css';
 import data from '../resume/resume-data.yaml';
 import React from 'react';
 
