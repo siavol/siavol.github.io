@@ -4,32 +4,41 @@ declare module '*.yaml' {
     description: {
       short: string;
     };
-    skills: ResumeSkill[];
+    skills: ResumeSkillData[];
     languages: string[];
-    experience: Job[];
+    experience: JobData[];
+    certificates: EducationData[];
   };
 
-  export type ResumeSkill = {
+  export type ResumeSkillData = {
     name: string;
     kind: string;
   };
 
-  export type Job = {
+  export type JobData = {
     company: string;
     location: string;
     role: string;
-    'time-period': {
-      from: string;
-      to: string;
-    };
-    projects: Project[];
+    'time-period': TimePeriod;
+    projects: ProjectData[];
   };
 
-  export type Project = {
+  export type TimePeriod = {
+    from: string;
+    to?: string;
+  };
+
+  export type ProjectData = {
     name: string;
     href?: string;
     description: string;
     responsibilities?: string[];
+  };
+
+  export type EducationData = {
+    name: string;
+    href: string;
+    'valid-period': TimePeriod;
   };
 
   const content: ResumeData;

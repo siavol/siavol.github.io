@@ -161,3 +161,13 @@ experience:
           - 'Object-Relational Mapping library development: C#, .NET, MS-SQL'
           - Provided integration with geoinformation system
           - 'Reports subsystem development: MS SQL Reporting Services Data Processing Extension'
+
+certificates:
+  - name: Professional Scrum Master I
+    href: https://www.scrum.org/certificates/907600
+    valid-period:
+      from: January 2023
+  - name: 'AZ-900: Microsoft Azure Fundamentals'
+    href: https://learn.microsoft.com/en-us/certifications/azure-fundamentals/
+    valid-period:
+      from: October 2022

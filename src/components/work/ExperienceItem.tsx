@@ -1,12 +1,12 @@
 import './ExperienceItem.css';
 import React from 'react';
-import { Job } from '../resume/resume-data.yaml';
+import { JobData } from '../resume/resume-data.yaml';
 import { JobContext } from './JobContext';
 import Position from './Position';
 import JobTimePeriod from './JobTimePeriod';
 import ProjectItem from './ProjectItem';
 
-type JobElementProps = { job: Job };
+type JobElementProps = { job: JobData };
 
 function ExperienceItem({ job }: JobElementProps) {
   return (

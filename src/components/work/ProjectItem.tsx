@@ -1,11 +1,11 @@
 import './ProjectItem.css';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Project } from '../resume/resume-data.yaml';
+import { ProjectData } from '../resume/resume-data.yaml';
 import Responsibilities from './Responsibilities';
 import ProjectName from './ProjectName';
 
-type ProjectItemProps = { project: Project };
+type ProjectItemProps = { project: ProjectData };
 
 function ProjectItem({ project }: ProjectItemProps) {
   return (

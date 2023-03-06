@@ -1,7 +1,7 @@
 import { createContext } from 'react';
-import { Job } from '../resume/resume-data.yaml';
+import { JobData } from '../resume/resume-data.yaml';
 
-export const JobContext = createContext<Job>({
+export const JobContext = createContext<JobData>({
   company: 'fake',
   location: 'nowhere',
   role: 'nil',

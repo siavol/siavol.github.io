@@ -1,7 +1,7 @@
 import React from 'react';
-import { Project } from '../resume/resume-data.yaml';
+import { ProjectData } from '../resume/resume-data.yaml';
 
-type ProjectNameProps = { project: Project };
+type ProjectNameProps = { project: ProjectData };
 
 function ProjectName({ project }: ProjectNameProps) {
   const projectName = project.href ? (
