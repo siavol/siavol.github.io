@@ -1,5 +1,6 @@
 import React from 'react';
 import Certificates from './education/Certificates';
+import Courses from './education/Courses';
 import Experience from './Experience';
 import Languages from './Languages';
 import Skills from './Skills';
@@ -15,6 +16,7 @@ function Content() {
       <div className="col-sm-8">
         <Experience />
         <Certificates />
+        <Courses />
       </div>
     </div>
   );

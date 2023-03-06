@@ -8,6 +8,7 @@ declare module '*.yaml' {
     languages: string[];
     experience: JobData[];
     certificates: EducationData[];
+    courses: EducationData[];
   };
 
   export type ResumeSkillData = {
@@ -37,8 +38,9 @@ declare module '*.yaml' {
 
   export type EducationData = {
     name: string;
+    source?: string;
     href: string;
-    'valid-period': TimePeriod;
+    'valid-period'?: TimePeriod;
   };
 
   const content: ResumeData;

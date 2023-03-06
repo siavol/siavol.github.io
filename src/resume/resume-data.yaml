@@ -171,3 +171,17 @@ certificates:
     href: https://learn.microsoft.com/en-us/certifications/azure-fundamentals/
     valid-period:
       from: October 2022
+
+courses:
+  - name: Machine Learning, Stanford University
+    source: Coursera
+    href: https://class.coursera.org/ml-003
+  - name: Probabilistic Graphical Models, Stanford University
+    source: Coursera
+    href: https://class.coursera.org/pgm-2012-002
+  - name: Algorithms Part I, Princeton University
+    source: Coursera
+    href: https://www.coursera.org/learn/algorithms-part1
+  - name: Algorithms Part II, Princeton University
+    source: Coursera
+    href: https://www.coursera.org/learn/algorithms-part2
