@@ -9,6 +9,7 @@ declare module '*.yaml' {
     experience: JobData[];
     certificates: EducationData[];
     courses: EducationData[];
+    education: EducationData[];
   };
 
   export type ResumeSkillData = {

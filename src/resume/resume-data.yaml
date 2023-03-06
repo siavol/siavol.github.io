@@ -185,3 +185,9 @@ courses:
   - name: Algorithms Part II, Princeton University
     source: Coursera
     href: https://www.coursera.org/learn/algorithms-part2
+
+education:
+  - name: Applied math
+    source: Arkhangelsk State Engineer University
+    valid-period:
+      from: 1998 - 2003
