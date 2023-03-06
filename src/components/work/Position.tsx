@@ -6,8 +6,8 @@ function Position() {
 
   return (
     <>
-      <span className="company">{job.company}</span>,
-      <span className="location">{job.location}</span> —
+      <span className="company">{job.company}</span>,&nbsp;
+      <span className="location">{job.location}</span> —&nbsp;
       <span className="role">{job.role}</span>
     </>
   );

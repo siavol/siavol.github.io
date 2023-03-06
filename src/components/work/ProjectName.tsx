@@ -12,7 +12,7 @@ function ProjectName({ project }: ProjectNameProps) {
 
   return (
     <div className="project">
-      <span className="sub-title">Project:</span>
+      <span className="sub-title">Project:&nbsp;</span>
       <span>{projectName}</span>
     </div>
   );
